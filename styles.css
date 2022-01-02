@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 30px;
+}
+
+.box {
+  height: 338px;
+  width: 300px;
+  background-color: #ffffff;
+  border: 0.5px solid #c0c8e3;
+  box-shadow: 5px 5px #c0c8e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  font-family: inherit;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* box1 */
+.circle {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  border: 1px solid #2065f6;
+}
+
+.checkbox-container.active .circle {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  border: 6px solid #2065f6;
+}
+
+.checkbox-container {
+  display: flex;
+  margin: 3px 0;
+}
+
+.box-1 .text {
+  margin-left: 5px;
+}
+
+.box-4 .link {
+  color: #0c1431;
+}
+
+/* margin values */
+h2 {
+  margin: 5px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.btn {
+  margin-top: 10px;
+}
